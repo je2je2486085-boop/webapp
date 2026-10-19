@@ -1,6 +1,5 @@
 {
   "name": "webapp",
-  "type": "service",
   "compatibility_date": "2026-09-17",
   "pages_build_output_dir": "./dist",
   "compatibility_flags": ["nodejs_compat"],
@@ -11,14 +10,8 @@
       "database_id": ""
     }
   ],
-  "triggers": {
-    "crons": []
-  },
   "env": {
     "production": {
-      "vars": {
-        "ENV": "production"
-      },
       "d1_databases": [
         {
           "binding": "DB",
@@ -27,10 +20,14 @@
         }
       ]
     },
-    "development": {
-      "vars": {
-        "ENV": "development"
-      }
+    "preview": {
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "webapp-production",
+          "database_id": ""
+        }
+      ]
     }
   },
   "vars": {
