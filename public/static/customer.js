@@ -146,7 +146,7 @@
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary btn-full" onclick="resetForm()">돌아가기</button>
+            <button class="btn btn-primary btn-full" onclick="resetForm()">처음으로 돌아가기</button>
           </div>
         </div>
         <div class="footer">
@@ -178,7 +178,7 @@
               </div>
               <button type="button" class="btn btn-primary btn-full" onclick="requestOtp()">인증코드 받기</button>
               <div style="text-align: center; margin-top: 16px;">
-                <button class="btn btn-outline btn-sm" onclick="resetForm()">처음으로</button>
+                <button class="btn btn-outline btn-sm" onclick="resetForm()">처음으로 돌아가기</button>
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@
               <button type="button" class="btn btn-primary btn-full" onclick="verifyOtp()">확인</button>
               <div style="text-align: center; margin-top: 16px;">
                 <button class="btn btn-outline btn-sm" onclick="requestOtp()">인증코드 다시 받기</button>
-                <button class="btn btn-outline btn-sm" onclick="resetForm()">처음으로</button>
+                <button class="btn btn-outline btn-sm" onclick="resetForm()">처음으로 돌아가기</button>
               </div>
             </div>
           </div>
